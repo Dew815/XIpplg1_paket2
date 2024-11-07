@@ -23,14 +23,25 @@
   </div>
 </nav>
 
-<div class="container mt-3">
-	<div class="row">
-		<div class="col-md-3">
+<div class="container py-5">
+	<div class="row justify-content-center">
+		<div class="col-md-4">
 			<div class="card">
-				<img src="" class="card-img-top" title="" style="height:12rem">
-				<div class="card-footer text-center">
-					<a href="">10 suka</a>
-					<a href="">3 komentar</a>
+				<div class="card-body bg-light">
+					<div class="text-center">
+						<h5>Login Aplikasi</h5>
+					</div>
+					<form action="" method="POST">
+						<label class="form-label">Username</label>
+						<input type="text" name="username" class="form-control" required>
+						<label class="form-label">Password</label>
+						<input type="password" name="password" class="form-control" required>
+						<div class="d-grid mt-2">
+							<button class="btn btn-primary" type="submit" name="kirim">MASUK</button>
+						</div>
+					</form>
+					<hr>
+					<p>Belum punya akun? <a ref="register.php">Daftar disini!</a></p>
 				</div>
 			</div>
 		</div>
