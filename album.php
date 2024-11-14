@@ -35,6 +35,29 @@ if ($_SESSION['status'] != 'login') {
   </div>
 </nav>
 
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card mt-2">
+                <div class="card-header">Tambah Album</div>
+                <div class="card-body">
+                    <form action="" method="POST">
+                        <label class="form-label">Nama Album</label>
+                        <input type="text" name="namaalbum" class="form-control" required>
+                        <label class="form-label">Deskripsi
+                            <textarea class="form-control" name="deskripsi" required></textarea>
+                        </label>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-8">
+
+        </div>
+    </div>
+</div>
+
 
 
 <footer class="d-flex justif-content-center border-top mt-3 bg-light fixed-bottom">
